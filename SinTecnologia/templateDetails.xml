@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>JP Xenode</name>
+	<creationDate>12/02/10</creationDate>
+	<author>Joomlaport</author>
+	<authorEmail>admin@joomlaport.com</authorEmail>
+	<authorUrl>http://www.joomlaport.com</authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>
+		<![CDATA[
+		<h3 style="margin-top:0;padding-top:0">JP Xenode</h3>
+		<p>If you like this free template, <a href="http://www.joomlaport.com">sign up for our newsletter here</a>.</p><p>Don't worry, we hate spam as much as you do, so we promise not too share your information + we'll be launching some great stuff here soon! </p>
+		]]>
+	    </description>
+	<files>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>css/navigation.css</filename>
+		<filename>css/template.css</filename>
+		<filename>html/index.html</filename>
+		<filename>html/pagination.php</filename>
+		<filename>html/com_content/default.php</filename>
+		<filename>html/com_content/default_item.php</filename>
+		<filename>html/com_content/icon.php</filename>
+		<filename>html/com_content/index.html</filename>
+		<filename>html/com_content/article/default.php</filename>
+		<filename>html/com_content/article/form.php</filename>
+		<filename>html/com_content/article/index.html</filename>
+		<filename>html/com_content/category/blog.php</filename>
+		<filename>html/com_content/category/blog_item.php</filename>
+		<filename>html/com_content/category/blog_links.php</filename>
+		<filename>html/com_content/category/default.php</filename>
+		<filename>html/com_content/category/default_items.php</filename>
+		<filename>html/com_content/category/index.html</filename>
+		<filename>html/com_content/frontpage/default.php</filename>
+		<filename>html/com_content/frontpage/default_item.php</filename>
+		<filename>html/com_content/frontpage/index.html</filename>
+		<filename>html/com_content/section/blog.php</filename>
+		<filename>html/com_content/section/blog_item.php</filename>
+		<filename>html/com_content/section/blog_links.php</filename>
+		<filename>html/com_content/section/default.php</filename>
+		<filename>html/com_content/section/index.html</filename>
+		<filename>images/ads_acss.jpg</filename>
+		<filename>images/ads_at.jpg</filename>
+		<filename>images/ads_default.jpg</filename>
+		<filename>images/ads_sd.jpg</filename>
+		<filename>images/ads_wp.jpg</filename>
+		<filename>images/bgr_board.png</filename>
+		<filename>images/bgr_body.png</filename>
+		<filename>images/bgr_footer.png</filename>
+		<filename>images/bgr_header.gif</filename>
+		<filename>images/bgr_post_comment.png</filename>
+		<filename>images/bgr_post_top.gif</filename>
+		<filename>images/bgr_post_top_data.png</filename>
+		<filename>images/bgr_rss.gif</filename>
+		<filename>images/bgr_sidebar_widgets.gif</filename>
+		<filename>images/bgr_widgettitle.gif</filename>
+		<filename>images/blockquote_bg.gif</filename>
+		<filename>images/blockquote_bg2.gif</filename>
+		<filename>images/btn_readmore.jpg</filename>
+		<filename>images/btn_rss.gif</filename>
+		<filename>images/button_go.gif</filename>
+		<filename>images/button_next.png</filename>
+		<filename>images/button_prev.png</filename>
+		<filename>images/button_replay.gif</filename>
+		<filename>images/button_submit.gif</filename>
+		<filename>images/dotted_grey.gif</filename>
+		<filename>images/dropdown_linkbg.gif</filename>
+		<filename>images/ico_all.gif</filename>
+		<filename>images/ico_ar.gif</filename>
+		<filename>images/ico_arch.gif</filename>
+		<filename>images/ico_cat.gif</filename>
+		<filename>images/ico_cat2.gif</filename>
+		<filename>images/ico_entry.gif</filename>
+		<filename>images/ico_line.gif</filename>
+		<filename>images/ico_twitter.png</filename>
+		<filename>images/ico_valid.png</filename>
+		<filename>images/index.html</filename>
+		<filename>images/subnav_btn.gif</filename>
+		<filename>images/topnav_hover.gif</filename>
+		<filename>includes/index.html</filename>
+		<filename>includes/jpmenu.js</filename>
+		<filename>includes/jquery.js</filename>
+		<filename>includes/stepcarousel.js</filename>
+	</files>
+	<positions>
+		<position>bannertop</position>
+		<position>left</position>
+		<position>right</position>
+		<position>ads</position>
+		<position>navigation</position>
+	</positions>
+	<params>
+		<param type="spacer" default="General Settings" />
+		<param name="slogan" type="text" default="" size="50" label="Website Slogan" description="Website Slogan" />
+		<param name="rss" type="list" default="1" label="RSS Module" description="Enable/Disable RSS Module">
+			<option value="1">Enabled</option>
+			<option value="0">Disabled</option>
+		</param>
+		<param name="hide_backlink" type="list" default="0" label="Joomlaport Backlink" description="While we would really appreciate if you didn't hide our back-link, you can use this setting to hide it from view.">
+			<option value="1">Hidden</option>
+			<option value="0">Display</option>
+		</param>
+		<param name="searchvalue" type="text" default="Type your search here..." size="30" label="Search Text" description="Default search box text" />
+		<param name="validation" type="list" default="1" label="W3C Validation Icons" description="Enable/Disable W3C Valid XHTML/CSS Icons">
+			<option value="1">Enabled</option>
+			<option value="0">Disabled</option>
+		</param>
+		<param type="spacer" default="Twitter Integration" />
+		<param name="twitter" type="text" default="" label="Twitter Username" description="Twitter Username" />
+		<param type="spacer" default="Carousel Settings" />
+		<param name="car_title" type="text" default="Latest News" label="Carousel Title" description="Carousel Title" />
+		<param name="car_speed" type="text" default="500" label="Carousel Speed" description="Carousel Speed" />
+		<param name="car_pause" type="text" default="9000" label="Carousel Pause" description="Carousel Pause" />
+		<param name="car_slide1" type="textarea" default="" label="Slide 1" description="" rows="5" cols="60" />
+		<param name="car_slide2" type="textarea" default="" label="Slide 2" description="" rows="5" cols="60" />
+		<param name="car_slide3" type="textarea" default="" label="Slide 3" description="" rows="5" cols="60" />
+		<param name="car_slide4" type="textarea" default="" label="Slide 4" description="" rows="5" cols="60" />
+		<param name="car_slide5" type="textarea" default="" label="Slide 5" description="" rows="5" cols="60" />
+	</params>
+</install>
